@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.white {
+    padding-top: 2%;
+    color: white;
+}
+.active {
+    display: none;
+}
+.screen {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #0e0db2, #0226ba, #0037c0, #0746c6, #1854ca, #3b61ce, #526ed2, #657bd6, #828ddc, #9c9fe2, #b3b2e9, #c9c6ef);
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading {
+    padding-top: 3%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0.3ch;
+}
+.search {
+    padding: 2% 40% 0;
+    justify-content: space-between;
+}
+.search span a {
+    color: white;
+    text-decoration: none;
+}
+.location-img img {
+    width: 12vw;
+    height: 12vh;
+    padding-top: 2%;
+}
+.location-text {
+    color: white;
+    flex-direction: column;
+    padding-top: 1%;
+}
+#p1 {
+    font-size: x-large;
+}
+#p2 {
+    font-size: small;
+}
+.bt {
+    padding-top: 1.5%;
+}
+.bt button {
+    font-size: larger;
+    padding: 0 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #828ddc;
+}
+.area {
+    padding-top: 1.5%;
+    color: white;
+    font-size: larger;
+}
+.flag-img {
+    padding-left: 1%;
+    width: 3vw;
+    height: 4vh;
+}
+.weather-type {
+    flex-direction: column;
+}
+.box2 {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin-top: 1.5%;
+    margin-right: 10px;
+    color: red;
+}
+.img-s2 {
+    width: 30%;
+    height: 30%;
+    padding: 15% 0 10% 30%;
+}
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seach-img{
+    width: 1.5vw;
+    height: 2.5vh;
+}
+.seachbar{
+    padding-top: 2%;
+}
+.seachbar input {
+    border-radius: 7%;
+    padding: 0.4%;
+    background-color: lightgrey;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    width: 18vw;
+}
+.seachbar button{
+    margin-left: 0.7%;
+}
